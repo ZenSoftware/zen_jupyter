@@ -3,7 +3,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Replace LaTex escapes with with KaTex in a file."
+        description="Replace LaTeX delimeters with markdown compatible delimeters in a file."
     )
     parser.add_argument("file_path", help="Path to the file you want to modify")
 
